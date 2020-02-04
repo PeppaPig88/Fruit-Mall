@@ -1,0 +1,127 @@
+footer {
+    margin-top: 50px;
+    border-top: 1px solid #eee;
+    background: #f7f7f7;
+
+}
+
+footer .container {
+    width: 1180px;
+    font-size: 14px;
+    margin: 0 auto;
+
+}
+footer .inherit{
+    float: right;
+    cursor: pointer;
+}
+
+footer .clearfix {
+    clear: both;
+}
+
+footer .footer-link {
+    margin-top: 30px;
+    float: left;
+    width: 15%;
+    /* height: 300px; */
+}
+
+footer .footer-link-title {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0px;
+
+    margin: 0px;
+    font-weight: normal;
+}
+
+footer .footer-link-item {
+    color: #999;
+
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    width: 180px;
+    height: 24px;
+}
+
+footer .footer-link-item:hover {
+    color: #999;
+
+    text-decoration: none;
+}
+
+footer .footer-contect {
+    padding-left: 3%;
+    border-left: 1px #e6e6e6 solid;
+    width: 23%;
+    padding-right: 10px;
+    float: left;
+
+    margin-top: 30px;
+}
+
+footer .footer-contect-item {
+    margin-bottom: 12px;
+    color: #666;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+
+    /* border: red 1px solid; */
+}
+
+footer .footer-contect-item a {
+    color: #666;
+    text-decoration: none;
+}
+
+footer .footer-contect-item a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+
+footer .icon-fb {
+    vertical-align: middle;
+    background: url(../img/fb.png) no-repeat;
+    display: block;
+    background-size: 40px;
+    width: 38px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+
+}
+
+
+
+footer .dropbox {
+    display: none;
+    position: relative;
+    top: -150px;
+
+}
+
+footer .footer-copyright {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+footer .footer-copyright h5.owner {
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    margin: 20px 0;
+    
+}
+
+footer .footer-copyright a{
+    color: inherit;
+    text-decoration: none;
+}

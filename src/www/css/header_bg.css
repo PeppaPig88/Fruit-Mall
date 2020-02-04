@@ -1,0 +1,58 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    float: left;
+    text-decoration: none;
+    color: yellow;
+    position: relative;
+}
+p,span{
+    cursor: default;
+}
+body {
+    background: orange;
+
+}
+
+
+.header {
+    width: 100%;
+    border: 3px solid white fixed;
+
+    height:70px;
+    border-radius: 10px;
+    position: fixed top 0;
+}
+
+.header .logo {
+    float: left;
+
+}
+
+
+.header .nav ul {
+    margin: 0 100px;
+}
+
+.header .nav ul li {
+    padding-left: 100px;
+    float: left;
+    height: 75px;
+    width: 90px;
+    text-align: center;
+}
+
+.header .nav ul li a {
+    font-size: 22px;
+    line-height: 75px;
+
+}
+

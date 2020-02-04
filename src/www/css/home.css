@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body{
+	margin:0;
+	min-height:100%;
+	background-color: black;
+}
+
+#logo {
+	float: left;
+	padding: 0;
+}
+
+#banner_container {
+ 	overflow:hidden;
+	height: 125px;
+	background: black;
+	margin-bottom: 0;
+}
+
+#name {
+	font-family: "Orbitron";
+	font-style: normal; font-variant: normal;
+	text-align: center;
+	float: center;
+}
+
+#name > h1 {
+	text-shadow: 0.09em 0.02em #333;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	color: #e6f4e2;
+	font-size: 50px;
+	letter-spacing: .1em;
+}
+
+#name > h2 {
+	text-shadow: 0.09em 0.02em #333;
+        margin-top: 10px;
+        color: #e6f4e2;
+        font-size: 20px;
+        letter-spacing: .1em;
+}
+
+#banner_tools {
+	font-family: "Ariel";
+	font-style: normal; font-variant: normal;
+	text-algn: center;
+	float: right;
+}
+
+#user {
+	list-style-type: none;
+	font-size: 20px;
+	color: #e6f4e2;
+}
+
+.forms > li {
+	display: inline;
+}
+
+.forms > li > a {
+	margin-right: 15px;
+	color: white;
+}
+
+.nav_bar {
+	background-color: #ceccd7;
+	text-transform: uppercase;
+	font-size:20px;
+	font-family: "Orbitron";
+	overflow: hidden;
+}
+
+.nav_bar > ul {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 40px;
+}
+
+.nav_bar > ul > li {
+	display: inline;
+}
+.nav_bar > ul > li > a {
+	color: black;
+	padding:10px;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+.nav_bar > ul > li > a:hover {
+	color: white;
+	text-decoration: underline;	
+}
+
+#current_page > a {
+	text-decoration: none;
+	color: white;
+	background-color: #4D4E4F;
+	cursor:default;
+}
+#motto {
+	background: black;
+	font-family: "Orbitron";
+	text-align: center;
+}
+#motto > h3 {
+	font-size: 20px;
+	color:#99ff99;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+.home_content {
+	margin: 0 50 50 50;
+	background: white;
+	padding: 10px;
+	font-family: "Ariel Verdana", sans-serif;
+}
+
+.home_content > p {
+	font-size: 14px;
+	margin-bottom:15px;	
+}
+
+.home_content > h5 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	margin:0;
+}
+
+.home_content > div > img {
+	width: 100%;
+}
+
+.home_content > div > a > img {
+	width: 100%;
+}
+.r6_content {
+        margin: 0 50 50 50;
+        background: white;
+        padding: 10px;
+        font-family: "Ariel Verdana", sans-serif;
+}
+
+.r6_content > h5 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom:10px;
+}
+
+.r6_content > div > img {
+	width: 100%;
+}
+
+.game_content > h5 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom:10px;
+}
+
+.game_content > div > img {
+        width: 100%;
+}
+
+.game_content {
+        margin: 0 50 50 50;
+        background: white;
+        padding: 10px;
+        font-family: "Ariel Verdana", sans-serif;
+}
+.comments {
+	margin: 0 50 50 50;
+        background: white;
+        padding: 10px;
+        font-family: "Ariel Verdana", sans-serif;
+}
+
+.comment_title {
+        background: black;
+        font-family: "Orbitron";
+        text-align: center;
+}
+.comment_title > h3 {
+        font-size: 20px;
+        color:#99ff99;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+}
+
+.comment_input {
+	width: 100%;
+	height: 100px;
+}
+
+.comment_submit {
+	background-color: #4CAF50;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	cursor: pointer;
+  	width: 100%;
+  	opacity: 0.9;
+	font-size: 15px;
+}
+#footer {
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	height: 100%;
+	background: #ceccd7;
+	padding: 5px;
+	text-align: center;
+	font-size: 11px;
+	height: 25px;
+}
+
+#footer > h4{
+	margin-bottom: 0;
+}
+input {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+}
+button {
+  	background-color: #4CAF50;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	cursor: pointer;
+  	width: 100%;
+  	opacity: 0.9;
+}
+button:hover {
+  	opacity:1;
+}
+
+table, td, th { 
+  	border: 2px solid black; 
+}
+td, th {
+  	padding: 5px 10px 10px 10px;
+}
+
+table { 
+  	border-collapse: collapse;
+ 	width: 100%;
+}
+.signupbtn {
+  	float: left;
+  	width: 100%;
+	font-size: 15px;
+}
+.loginbtn {
+  	float: left;
+  	width: 100%;
+	font-size: 15px;
+}
+.clearfix::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+.games_list {
+	list-style-type: none;
+}
+.games_list > li > a {
+	font-family: "Orbitron";
+        margin-left: 30px;
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+	color: black;
+}
+
+.invalid {
+	color:#FF0000;
+
+}
+.good {
+	background-color: green;
+}
+
+.bad {
+	background-color: red;
+}
+#message {
+	font-family: "Ariel";
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	padding: 10 10;
+	color: white;
+}
+.account > a {
+	color:black;
+}

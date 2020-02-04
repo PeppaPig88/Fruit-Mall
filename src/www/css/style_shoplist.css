@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    display: block;
+    background: #582929;
+}
+a{
+    text-decoration: none;
+	color: rgb(102, 102, 102);
+}
+
+.slider{top:162px;position:absolute;z-index:1}
+.slider .items{display:none}
+.slider  .pagination{position:absolute;z-index:2;bottom:47px;left:432px}
+.slider  .pagination li{float:left;padding-right:4px}
+.slider  .pagination a{display:block;width:16px;height:16px;text-indent:-9999px;background:url(../images/buttons.png) right 0 no-repeat}
+.slider  .pagination a:hover, .slider  .pagination .current a{background-position:left}
+.rstrestaurants {
+    border-bottom: 0;
+    margin-top: 20px;
+    display: table;
+}
+.rstblock{
+    float: left;
+    font-size: 12px;
+    position: unset;
+}
+.rstblock{
+    background-color: #fff;
+    border-bottom: 1px #f5f5f5 solid;
+    width: 33.33333%;
+    height: 140px;
+    line-height: 18px;
+}
+.rstblock:hover{
+    background-color:#f5f5f5;
+}
+.rstblock:hover .rstblock-title{
+    color: rgb(253, 169, 13);
+}
+
+
+.rstblock-logo{
+    float: left;
+    font-size: 12px;
+    position: relative;    
+}
+.rstblock-logo {
+    padding: 20px;
+    color: #999;
+    text-align: center;
+}
+.rstblock-logo-icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.rstblock-content{
+    padding: 20px;
+}
+
+.rstblock-title {
+    color: #999;
+    margin-top: 3px;
+}
